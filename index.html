@@ -71,11 +71,10 @@
     <!-- Banner -->
 
 
-    <div class="hero min-h-screen m-auto text-center px-12
-    bg-gradient-to-r from-transparent from-30% via-white via-30% to-transparent to-90
-    ">
+    <div class="hero min-h-screen mb-2 text-center 
+    bg-gradient-to-r from-transparent from-30% via-white via-30% to-transparent to-90%">
       <div class="hero-content flex-col">
-        <img src="./assets/banner.png" class="max-w-sm" />
+        <img src="./assets/banner.png" class="" />
         <div>
           <h1 class="text-2xl font-bold lg:text-5xl">A barn house of this design has a striking appearance</h1>
           <p class="py-6">
@@ -96,11 +95,12 @@
     <img class="hidden lg:block" src="./assets/Vector.png" alt="">
     <button class="bg-white px-2 rounded-lg"><i class="rotate-90 fa-solid fa-arrow-up"></i> about us</button>
   </div>
+  <!-- problem -->
   <section>
     <div class="hero min-h-screen">
-      <div class="hero-content flex-col lg:flex-row gap-8">
+      <div class="hero-content flex flex-col lg:flex-row gap-8">
 
-        <div>
+        <div class="flex flex-col">
           <div>
             <h1 class="text-2xl font-bold text-center lg:text-5xl">We design thoughtful, liveable spaces</h1>
             <p class="py-6 text-center">
@@ -108,22 +108,29 @@
               modern sophistication, featuring weathered wood, sleek metal accents.
             </p>
           </div>
-          <div class="flex gap-2 items-center bg-white p-4 rounded-lg">
-            <img src="./assets/commercial.png" alt="">
-            <div>
-              <h1 class="text-xl font-bold">Commercial</h1>
-              <p>The barn house captivates with its blend of rustic charm and modern.</p>
+          <div class="flex flex-col">
+            <div class="flex gap-2 items-center bg-white p-4 rounded-lg">
+              <div>
+                <img src="./assets/commercial.png" alt="">
+              </div>
+              <div>
+                <h1 class="text-xl font-bold">Commercial</h1>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+            <div class="flex gap-2 items-center bg-white p-4 rounded-lg mt-4">
+              <img src="./assets/residential.png" alt="">
+              <div>
+                <h1 class="text-xl font-bold">Residential</h1>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
             </div>
           </div>
-          <div class="flex gap-2 items-center bg-white p-4 rounded-lg mt-4">
-            <img src="./assets/residential.png" alt="">
-            <div>
-              <h1 class="text-xl font-bold">Residential</h1>
-              <p>The barn house captivates with its blend of rustic charm and modern.</p>
-            </div>
-          </div>
+          <!--  -->
         </div>
-        <img src="./assets/Rectangle.png" class="max-w-sm rounded-lg shadow-2xl" />
+        <div>
+          <img src="./assets/Rectangle.png" class="w-screen rounded-lg" />
+        </div>
       </div>
     </div>
   </section>
@@ -153,7 +160,7 @@
       </div>
     </div>
     <div class="bg-[#EFDA6E] p-2 place-items-center rounded-lg">
-      <img src="./assets/concept.png" alt="">
+      <img src="./assets/flow-chart.png" alt="">
       <div>
         <h1 class="text-xl font-bold">Design Process</h1>
         <p class="py-6">
@@ -189,8 +196,8 @@
     <div class="hero">
       <div class="hero-content text-center">
         <div class="max-w-md">
-          <button class="btn bg-[rgba(171,239,95,0.5)] rounded-full"><i
-              class="rotate-90 fa-solid fa-arrow-up mr-2"></i>Explore Our latest work</button>
+          <a class="bg-[rgba(171,239,95,0.5)] rounded-full px-2"><i
+            class="rotate-90 fa-solid fa-arrow-up"></i> Explore Our latest work</a>
           <h1 class="text-5xl font-bold">Our latest Portfolio</h1>
           <p class="py-6">
             The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
